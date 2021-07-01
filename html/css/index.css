@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #dfdede;
+
+    width: 100%;
+}
+
+input, button {
+    outline: none;
+    border: none;
+}
+
+/*header configurando a nav*/
+
+header.barra1 {
+    width: 100%;
+}
+
+header.barra1 nav{
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    height: 68px; 
+    border-top: none;
+    border-left: none;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+header.barra1 nav h1 {
+    background: #0070C3;
+    color: #fff;
+    width: 62px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.barra1 nav ul {
+    list-style: none;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+header.barra1 nav ul li {
+    color: #0171C6;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+header.barra1 nav div.pesquisa {
+    padding: 20px;
+    padding-left: 100px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+header.barra1 nav div.pesquisa img {
+    height: 38px;
+    padding: 10px;
+    padding-right: 3px;
+}
+
+header.barra1 nav div.pesquisa p {
+    color: #0070C3;
+    font-size: 10px;
+}
+
+header.barra1 nav form {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+header.barra1 nav form input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #F3F3F3;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/*Configurando a segunda barra*/
+
+section.barra2 {
+    height: 42px;
+    background: #fff;
+    border: 1px solid #DDDDDD;
+    box-shadow: 1px 1px 4px #DDDDDD;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.barra2 ul {
+    list-style: none;
+}
+
+section.barra2 ul li {
+    color: #2782D0;
+    font-size: 15px;
+}
+
+section.barra2 form input {
+    height: 34px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #B6B6B6;
+}
+/*configurando header#fundo*/
+
+header#fundo {
+    margin: 100px;
+    margin-top: 40px;
+}
+
+/*Configurando header.conteudo*/
+
+header.conteudo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    padding-top: 0;
+}
+
+header.conteudo img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+header.conteudo div.conteiner h1 {
+    color: #555555;
+    font-size: 25px;
+}
+
+header.conteudo div.conteiner div {
+    display: flex;
+    margin: 10px;
+}
+
+header.conteudo div.conteiner div p {
+    margin: 15px;
+    font-size: 14px;
+    color: #555555;
+}
+
+/*Configurando conteudo1*/
+
+header.conteudo1 {
+    background: #fff;
+    height: 300px;
+    width: 400px;
+    padding: 30px;
+}
+
+header.conteudo1 div.imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: center;
+}
+
+header.conteudo1 div.imagem img {
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 50%;
+}
+
+
+header.conteudo1 p {
+    font-size: 19px;
+    color: #494A4D;
+    text-align: justify;
+}
+
+header.conteudo1 div.imagem div h1 {
+    font-size: 26px;
+    color: #494A4D;
+}
+
+header.conteudo1 button {
+    background: #0071C5;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+/*Configurando conteudo2*/
+
+section#conteiner {
+    display: flex;
+}
+
+section#conteiner section.conteudo2 {
+    background: #fff;
+    margin-left: 30px;
+    padding: 30px;
+    color: #494A4D;
+    text-align: justify;
+}
+
+section#conteiner section.conteudo2 div {
+    margin-top: 30px;
+}
+
+section#conteiner section.conteudo2 h1 {
+    font-size: 25px;
+}
+
+section#conteiner section.conteudo2 h2, p {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+section#conteiner section.conteudo2 div p a {
+    color: #0B7AC9;
+}
+
+section#conteiner section.conteudo2 div img {
+    margin: 0;
+    margin-right: 5px;
+}
+
+section#conteiner section.conteudo2 div p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section#conteiner section.conteudo2 div.text {
+    margin-top: 0;
+}
+
+section#conteiner section.conteudo2 img {
+    margin: 10px;
+    margin-left: 0;
+}
+
+
+
+
